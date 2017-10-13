@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+</head>
+<style>
+.bgYellow{ background-color: yellow;}
+.bgBlue{ background-color: blue;}
+.bgWhite{ background-color: white;}
+.border{ border: 3px solid red}
+
+</style>
+<script>
+function changecolor(color) {
+	var c = document.getElementById("container");
+	//c.sytle.background = color;
+	e.setAttribute("class", color);
+}
+
+function toUpperCase() {
+	var word=document.getElementById("word");
+	word.value=word.value.toUpperCase();
+}
+
+function addBorder(){
+	var box = document.gerElementById("box");
+}
+</script>
+<body onload="alert('웹페이지 로딩됨');">
+<div id="conditioner">
+<input type="radio" name="color" onclick="changecolor('bgyellow');">노란색
+<input type="radio" name="color" onclick="changecolor('bgblue');">파란색
+<input type="radio" name="color" onclick="changecolor('bgwhite');">원래대로
+<br>
+<input type="text" id="word" onchange="toUpperCase();">
+</div>
+</body>
+</html>

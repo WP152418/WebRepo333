@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>I am</title>
+
+ <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    
+    
+<style>
+    div.container {
+       padding-top: 20px;
+    }
+</style>
+    
+</head>
+<body>
+
+<!--메뉴바-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="myblog.html">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="menu1.html">I AM <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item" onmouseover="menu_over(this);" onmouseout="menu_out(this);">
+        <a class="nav-link" href="menu2.html">Interests</a>
+      </li>
+      <li class="nav-item" onmouseover="menu_over(this);" onmouseout="menu_out(this);">
+        <a class="nav-link" href="menu3.html">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+ <div class="container">
+      <div class="row row-offcanvas row-offcanvas-right">
+
+        <div class="col-12 col-md-9">
+          <p class="float-right d-md-none">
+            <button type="button" class="btn btn-primary btn-sm" data-toggle="offcanvas">Toggle nav</button>
+          </p>
+          <div class="jumbotron">
+            <h1>I AM , </h1>
+            <p>Introducing about me.</p>
+          </div>
+          <div class="row">
+            <div class="col-6 col-lg-4">
+              <h2>Name</h2>
+              <p>이서영<br>
+              SeoYoung Lee.</p>
+  
+            </div><!--/span-->
+            <div class="col-6 col-lg-4">
+              <h2>Age & School</h2>
+              <p>Born at 2001. January 13. Siheung City, Korea.<br>
+              Got to school one year earlier.<br><br>
+              
+              Elementary : Ansan, Chungsuk School<br>
+              Middle : Ansan, Haeyang School<br>
+              High : Ansan, Korea Digital Media School</p>
+             
+            </div><!--/span-->
+            <div class="col-6 col-lg-4">
+              <h2>My Dream</h2>
+              <p>Not decided yet, but finding it now </p>
+             
+            </div><!--/span-->
+          </div><!--/row-->
+        </div><!--/span-->
+        </div><!--/.container-->
+  </div>
+
+</body>
+</html>
